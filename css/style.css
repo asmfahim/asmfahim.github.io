@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*..........bg-image start........*/
+.image {
+    background-image: url(../images/laptop-3174729_1920.jpg);
+    height: 100vh;
+    background-repeat:no-repeat ;
+    background-size:  cover ;
+    
+}
+
+.logo{
+    font-size: 1rem;
+}
+.padding{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.header{
+    background-image: linear-gradient(to right, #5E5F63, #BCBCBC);
+    /* background-color: black; */
+
+}
+
+.white{
+    color:#fff !important;
+}
+
+.active, .menu-item-hover:hover{
+
+    background: black !important;
+    border-radius: 5px;
+    box-shadow: 3px 5px 6px;
+    
+}
+
+.menu-link-hover:hover{
+
+    color: #B5B5B7 !important;
+}
+
+.myphoto{
+    border: 9px solid #6B6B6B;
+    box-shadow: 0px 8px 8px black;
+}
+
+.nav-item{
+    margin-left: 15px;
+}
+
+.bg-color{
+    background-color: #290000;
+    box-shadow: 0 5px 5px 0 #290000;
+}
+
+.service:hover {
+    box-shadow: 0 5px 7px 0;
+}
+
+.service >div>h2>a{
+    color: black !important;
+}
+
+.service >div>h2>a:hover{
+    color:#0A58CA !important;
+}
+
+.bg-container-color{
+    background-color: #080033;
+}
+
+.card-color{
+    height: 65vh;
+    background-color: #060C21 !important;
+}
+
+
+.fname
+{
+    border-radius: 9px;
+    padding: 10px;
+    margin-top: 7px;
+}
+.fname:hover
+{
+    box-shadow: 0 5px 5px 0;
+    background: #060C21;
+    color: #fff;
+    border-radius: 9px;
+}
+
+.submit {
+    border-radius: 9px;
+}
+.submit:hover
+{
+    box-shadow: 0 5px 6px 0;
+    background: #060C21;
+    color: #fff;
+}
+
+.bg-footer-color{   
+    background-color: #060C21;
+}
+
+/* Gallery */
+
+#demo {
+    height:100%;
+    position:relative;
+    overflow:hidden;
+  }
+  
+  
+  .green{
+    background-color:#6fb936;
+  }
+          .thumb{
+              margin-bottom: 30px;
+          }
+          
+          .page-top{
+              margin-top:85px;
+          }
+  
+     
+  img.zoom {
+      width: 100%;
+      height: 200px;
+      border-radius:5px;
+      object-fit:cover;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+  }
+          
+   
+  .transition {
+      -webkit-transform: scale(1.2); 
+      -moz-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+  }
+      .modal-header {
+     
+       border-bottom: none;
+  }
+      .modal-title {
+          color:#000;
+      }
+      .modal-footer{
+        display:none;  
+      }
+
+  /*  Gallery end */
